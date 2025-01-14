@@ -45,12 +45,13 @@ const App = () => {
               "C++",
               "JavaScript",
               "TypeScript",
+              "SQL",
               "HTML",
               "CSS",
               "React.js",
               "Node.js",
               "Tailwind CSS",
-              "SQL"
+              
             ].map((skill, index) => (
               <div
                 key={index}
