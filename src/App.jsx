@@ -50,6 +50,7 @@ const App = () => {
               "React.js",
               "Node.js",
               "Tailwind CSS",
+              "SQL"
             ].map((skill, index) => (
               <div
                 key={index}
