@@ -6,3 +6,34 @@
 :root {
     font-family: "Inter", serif;
 }
+
+/* For mobile view */
+@media only screen and (max-width: 768px) {
+    body, html {
+        overflow-x: hidden;  /* Prevent horizontal scroll */
+        height: 100%;         /* Ensure the body takes full height */
+    }
+
+    /* Hide the sidebar on mobile */
+    .sidebar {
+        display: none;
+    }
+
+    /* Make the main content area take up the full width and become scrollable */
+    .content {
+        width: 100%;
+        overflow-y: auto;  /* Enable vertical scrolling */
+        height: auto;       /* Allow content to take its natural height */
+        padding-left: 0;    /* Adjust padding to remove unnecessary space */
+    }
+
+    /* Adjust header, footer, and main to ensure full width */
+    header, footer, main {
+        width: 100%;
+    }
+
+    /* Optional: Adjust any other elements you want to modify for mobile view */
+    .other-elements {
+        display: block;
+    }
+}

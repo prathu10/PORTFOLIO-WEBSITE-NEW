@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import "../index.css";  // Importing the CSS file
+
 
 export const HERO_CONTENT = `Hi, I’m Prathamesh Sonawane—a Computer Science grad student at the University of Utah. 
  I am proficient in Python, C++, JavaScript, Node.js, React.js, Tailwind CSS and SQL to build dynamic, user-friendly applications.Feel free to explore my work and reach out—I’d love to connect`;
