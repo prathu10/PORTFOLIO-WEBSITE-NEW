@@ -1,41 +1,19 @@
-import React, { useState } from "react";
-import { FaBars } from "react-icons/fa";
+import React from "react";
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true);
-
-  // Toggle the sidebar open/closed
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
-
-  // Handle navigation to a specific section and close the sidebar after navigating
+  // Handle navigation to a specific section
   const handleNavigation = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-    // Optionally keep the sidebar open after navigating if required
-    // setIsOpen(false); // Uncomment if you want to close sidebar after navigation
   };
 
   return (
     <div>
-      {/* Sidebar Toggle Button */}
-      <button
-        onClick={toggleSidebar}
-        className="text-2xl p-2 bg-neutral-800 text-white fixed top-1 left-4 z-50 rounded-md"
-      >
-        <FaBars />
-      </button>
-
       {/* Sidebar */}
-      <div
-        className={`fixed top-0 left-0 w-full h-16 bg-neutral-900 text-white p-4 shadow-lg transition-transform duration-300 ${
-          isOpen ? "translate-y-0" : "-translate-y-full"
-        }`}
-      >
-        <ul className="flex space-x-6 justify-center items-center h-full">
+      <div className="fixed top-0 left-0 w-full h-16 bg-neutral-900 text-white p-4 shadow-lg flex justify-center items-center">
+        <ul className="flex space-x-6">
           {[
             { id: "Home", label: "Home" },
             { id: "Skills", label: "Skills" },
@@ -47,7 +25,7 @@ const Sidebar = () => {
             <li key={item.id}>
               <button
                 onClick={() => handleNavigation(item.id)}
-                className="hover:text-cyan-400 text-lg"
+                className="hover:text-cyan-400 text-md"
               >
                 {item.label}
               </button>

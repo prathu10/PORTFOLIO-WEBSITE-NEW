@@ -1,50 +1,81 @@
-.sidebar{
+/* General Sidebar Styles */
+.sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: black;
-
-
-    
-
-    .bg{
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0 ;
-        width: 400px;
-        background: white;
-
-
-
-        .links{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-            
-            a{
-                font-size: 29px;
-            }
+  
+    /* Sidebar background */
+    .bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 300px;  /* Sidebar width for desktop */
+      background: white;
+      z-index: 10;  /* To make sure the sidebar is above other elements */
+  
+      /* Links container */
+      .links {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;  /* Moderate gap for desktop */
+        padding: 20px; /* Padding for better spacing */
+        
+        a {
+          font-size: 18px;  /* Default font size for desktop */
+          padding: 12px 20px;
+          transition: color 0.3s ease;
         }
+  
+        a:hover {
+          color: #00bcd4;  /* Hover color change */
+        }
+      }
     }
-
-    button{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: fixed;
-        top:25px;
-        left: 25px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-
+  
+    /* Toggle Button (for mobile view) */
+    button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: fixed;
+      top: 25px;
+      left: 25px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 20;  /* Ensure the button is above other elements */
     }
-}
+  }
+  
+  /* Mobile View Styles */
+  @media only screen and (max-width: 768px) {
+    .sidebar .bg {
+      width: 100%;  /* Full width on mobile */
+      height: 100vh;  /* Full height */
+    }
+  
+    .sidebar .links {
+      gap: 8px;  /* Reduced gap for smaller space between links */
+      padding: 15px;  /* Adjust padding to make links more compact */
+    }
+  
+    .sidebar .links a {
+      font-size: 14px;  /* Smaller font size for mobile */
+      padding: 8px 15px;  /* Adjust padding to make links smaller */
+    }
+  
+    /* Hide toggle button on desktop */
+    button {
+      display: none;  /* Hide button on desktop */
+    }
+  }
+  

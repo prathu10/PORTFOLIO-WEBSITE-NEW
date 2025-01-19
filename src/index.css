@@ -8,32 +8,33 @@
 }
 
 /* For mobile view */
+/* For mobile view */
 @media only screen and (max-width: 768px) {
-    body, html {
-        overflow-x: hidden;  /* Prevent horizontal scroll */
-        height: 100%;         /* Ensure the body takes full height */
-    }
+  body, html {
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+    height: 100%;         /* Ensure the body takes full height */
+  }
 
-    /* Hide the sidebar on mobile */
-    .sidebar {
-        display: none;
-    }
+  /* Hide the sidebar on mobile */
+  .sidebar {
+    display: none;
+  }
 
-    /* Make the main content area take up the full width and become scrollable */
-    .content {
-        width: 100%;
-        overflow-y: auto;  /* Enable vertical scrolling */
-        height: auto;       /* Allow content to take its natural height */
-        padding-left: 0;    /* Adjust padding to remove unnecessary space */
-    }
+  /* Make the main content area take up the full width */
+  .content {
+    width: 100%;
+    overflow-y: scroll;  /* Make the content scrollable */
+    height: 100vh;       /* Ensure content fills the screen */
+    padding-left: 0;     /* Adjust padding if needed */
+  }
 
-    /* Adjust header, footer, and main to ensure full width */
-    header, footer, main {
-        width: 100%;
-    }
+  /* Adjust other elements (e.g., header, footer) to take full width */
+  header, footer, main {
+    width: 100%;
+  }
 
-    /* Optional: Adjust any other elements you want to modify for mobile view */
-    .other-elements {
-        display: block;
-    }
+  /* Optional: You can hide or adjust other unnecessary elements */
+  .other-elements {
+    display: block;
+  }
 }
