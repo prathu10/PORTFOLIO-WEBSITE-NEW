@@ -78,7 +78,7 @@ const App = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1A9DqUvfFyz1dwCjJs1Q_JwzTL9fsBr17/view?usp=sharing" // Replace YOUR_FILE_ID with the actual ID
+            href="https://drive.google.com/file/d/1E9dfaWTPMB0iXGvf8pT-zdiMnIxGWqpK/view?usp=sharing" // Replace YOUR_FILE_ID with the actual ID
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent text-white border-2 border-white py-3 px-8 rounded-full text-xl font-semibold uppercase tracking-wider transition-all duration-300 ease-in-out transform hover:bg-white hover:text-cyan-400 hover:scale-105 shadow-2xl hover:shadow-xl"
@@ -102,7 +102,9 @@ const App = () => {
           id="Projects"
           className="h-screen bg-neutral-900 overflow-y-auto "
         >
-          <Projects />
+          <div>
+            <Projects />
+          </div>
         </section>
 
         {/* Contact Section */}

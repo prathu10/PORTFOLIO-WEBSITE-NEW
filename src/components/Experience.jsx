@@ -36,7 +36,7 @@ const experiences = [
 const Experience = () => {
   return (
     <div className="bg-gray-1000 text-white py-12">
-      <h1 className="text-4xl font-bold text-center mb-10">Internship Experience</h1>
+      <h1 className="text-4xl font-extrabold text-center text-white mb-10">Internship Experience</h1>
       <div className="max-w-4xl mx-auto flex flex-col space-y-8 px-4">
         {experiences.map((exp, index) => (
           <div
