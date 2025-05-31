@@ -4,25 +4,32 @@ const Projects = () => {
   // Array of projects with titles, descriptions, and GitHub URLs
   const projects = [
     {
-      title: "Task Management App",
-      description: "A full-stack application built with Django for the backend and React.js for the frontend.",
-      link: "https://github.com/your-username/task-management-app", // Replace with actual GitHub link
+      title: "Extinct Species Tracker",
+      description: "A CS-6630 project, ",
+      link: "https://github.com/your-username/voice-controlled-robot", // Replace with actual GitHub link
+    },
+    {
+      title: "React Native Movie App",
+      description: "A cross-platform mobile app built with React Native and Expo that lets users browse trending movies and view detailed info using the TMDB API.",
+      link: "https://github.com/prathu10/React_Native_Movie_App", // Replace with actual GitHub link
     },
     {
       title: "E-Commerce Website",
       description: "A responsive e-commerce website with Django for the backend and React.js for the frontend.",
       link: "https://github.com/prathu10/webmart", // Replace with actual GitHub link
     },
-    {
-      title: "Extinct Species Tracker",
-      description: "A CS-6630 project, ",
-      link: "https://github.com/your-username/voice-controlled-robot", // Replace with actual GitHub link
-    },
+    
     {
       title: "Calculator App",
       description: "A responsive calculator application using React.js",
       link: "https://github.com/prathu10/Calculator-App", // Replace with actual GitHub link
     },
+    {
+      title: "Healthcare Chatbot",
+      description: "An intelligent virtual assistant powered by NLP and machine learning to respond to healthcare-related queries with 92% accuracy, improving patient support and reducing response time.",
+      link: "https://github.com/prathu10/HealthCare-Chatbot", // Replace with actual GitHub link
+    },
+    
   ];
 
   return (
