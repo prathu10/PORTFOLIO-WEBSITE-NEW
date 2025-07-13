@@ -42,12 +42,14 @@ const App = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full px-8">
             {[
               "Python",
+              "SQL",
+              "Pandas",
+              "Numpy",
               "Tableau",
               "Power BI",
-              "JavaScript",
-              "SQL",
               "React.js",
               "React Native",
+              "JavaScript",
               "Node.js",
               "Tailwind CSS",
               
@@ -77,7 +79,7 @@ const App = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1eBSF8U5G7SSXBY_ff_b53N13Io0NeCk4/view?usp=sharing" // Replace YOUR_FILE_ID with the actual ID
+            href="https://drive.google.com/file/d/1lKVLG-PbuU08nk5CWjcxQ1I9sE6VsNU7/view?usp=drive_link" // Replace YOUR_FILE_ID with the actual ID
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent text-white border-2 border-white py-3 px-8 rounded-full text-xl font-semibold uppercase tracking-wider transition-all duration-300 ease-in-out transform hover:bg-white hover:text-cyan-400 hover:scale-105 shadow-2xl hover:shadow-xl"

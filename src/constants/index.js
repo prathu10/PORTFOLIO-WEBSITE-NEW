@@ -5,7 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 import "../index.css";  // Importing the CSS file
 
 
-export const HERO_CONTENT = `Hi, I’m Prathamesh Sonawane — a Computer Science graduate student at the University of Utah. I’m actively exploring opportunities in Data Analytics, Data Analyst, Full-Stack Development and Web Development, roles. Feel free to explore my work and get in touch — I’d love to connect!`;
+export const HERO_CONTENT = `Hi! I’m Prathamesh Sonawane — a Computer Science graduate student at the University of Utah with a strong interest in both Data and Development. I’m passionate about turning data into insights and building interactive, user-friendly applications. I’m currently exploring opportunities in roles like Data Analyst, Data Analytics, and Full-Stack/Frontend Development.
+
+Feel free to explore my work and reach out — I’d love to connect!`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
