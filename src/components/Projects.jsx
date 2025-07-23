@@ -4,6 +4,11 @@ const Projects = () => {
   // Array of projects with titles, descriptions, and GitHub URLs
   const projects = [
     {
+      title:  "Stock Market Dashboard – Power BI, Azure SQL & Yahoo Finance API",
+      description: "Created an interactive Power BI dashboard to visualize real-time stock data using Yahoo Finance API. Used Azure SQL and Python (pandas, pyodbc) to automate data ingestion and management. Designed key visualizations and KPIs for insightful stock analysis.",
+      link: "https://github.com/prathu10/Stock_Dashboard_Azure", 
+    },
+    {
       title:  "Netflix EDA Dashboard",
       description: "An interactive Tableau dashboard that analyzes Netflix content trends by genre, rating, country, and type (2013–2022), built using Python for data wrangling and Tableau for visual storytelling.",
       link: "https://github.com/prathu10/Netflix_EDA_Dashboard", 
@@ -23,7 +28,7 @@ const Projects = () => {
       description: "A responsive e-commerce website with Django for the backend and React.js for the frontend.",
       link: "https://github.com/prathu10/webmart", 
     },
-    
+  
     {
       title: "Healthcare Chatbot",
       description: "An intelligent virtual assistant powered by NLP and machine learning to respond to healthcare-related queries with 92% accuracy, improving patient support and reducing response time.",
