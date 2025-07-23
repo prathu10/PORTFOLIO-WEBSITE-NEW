@@ -52,6 +52,7 @@ const App = () => {
               "JavaScript",
               "Node.js",
               "Tailwind CSS",
+              "Microsoft Azure",
               
             ].map((skill, index) => (
               <div
