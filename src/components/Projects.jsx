@@ -9,6 +9,11 @@ const Projects = () => {
       link: "https://github.com/prathu10/Stock_Dashboard_Azure", 
     },
     {
+      title: "Real-Time Patient Revisit Analytics – Power BI, Flask REST API & Machine Learning",
+      description: "Developed an end-to-end ML solution to predict 30-day hospital readmissions (82% accuracy) using Random Forest and Logistic Regression. Built a Flask REST API for real-time model predictions and integrated it with Power BI to visualize readmission risk by age, diagnosis, and length of stay.",
+      link: "https://github.com/prathu10/Real-Time-Patient-Revisit-Analytics",
+    },
+    {
       title:  "Netflix EDA Dashboard",
       description: "An interactive Tableau dashboard that analyzes Netflix content trends by genre, rating, country, and type (2013–2022), built using Python for data wrangling and Tableau for visual storytelling.",
       link: "https://github.com/prathu10/Netflix_EDA_Dashboard", 
