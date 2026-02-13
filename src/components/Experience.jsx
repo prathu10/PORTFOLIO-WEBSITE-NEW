@@ -2,41 +2,61 @@ import React from "react";
 
 const experiences = [
   {
-    title: "Full-Stack Development Intern",
-    company: "CodeClause",
-    duration: "May 2024",
+    title: "Teaching Assistant – Information Systems",
+    company: "University of Utah – David Eccles School of Business",
+    duration: "Jan 2026 – Present",
     description: [
-      "Developed a task management app with Django, leveraging CRUD operations to boost efficiency by 30%.",
-      "Created a responsive calculator with React.js, enhancing interaction speed by 25%.",
+      "Performed analytical research and comparative evaluations across AI, Machine Learning, Business Analytics, and Python curricula, delivering structured insights that informed course design.",
+      "Synthesized large volumes of technical and business content into clear, data-backed insights for curriculum planning.",
+      "Analyzed and validated student performance datasets using Canvas and Excel to identify trends and ensure consistent evaluation standards.",
+      "Communicated analytical findings to cross-functional stakeholders, translating complex concepts into actionable insights."
     ],
-    technologies: ["Django", "React.js", "CRUD Operations", "Javascript"],
+    technologies: [
+      "Excel",
+      "Data Analysis",
+      "Trend Analysis",
+      "Stakeholder Communication",
+      "Business Analytics"
+    ],
+  },
+  {
+    title: "Order Fulfillment & Operations Assistant",
+    company: "University of Utah Campus Store",
+    duration: "Sep 2024 – May 2025",
+    description: [
+      "Managed and assessed high-volume operational data including orders, inventory, and shipments using NetSuite (ERP).",
+      "Monitored workflows to identify exceptions, delays, and data discrepancies affecting fulfillment operations.",
+      "Performed data validation and quality checks to ensure accurate inventory and operational records.",
+      "Tracked fulfillment metrics and order statuses to support metrics-driven operational decisions."
+    ],
+    technologies: [
+      "NetSuite (ERP)",
+      "Data Validation",
+      "Operational Analytics",
+      "Process Monitoring"
+    ],
   },
   {
     title: "Machine Learning Intern",
     company: "Corizo",
-    duration: "Mar 2024",
+    duration: "Mar 2024 – May 2024",
     description: [
-      "Gained expertise in Machine Learning, covering algorithms, NLP, predictive modeling, and data analysis.",
-      "Worked on text summarization project achieving 90% accuracy.",
+      "Analyzed multiple datasets using classification and NLP techniques to extract analytical insights.",
+      "Evaluated model performance using accuracy and ROC-AUC metrics to support data-driven conclusions."
     ],
-    technologies: ["Machine Learning", "NLP", "Predictive Modeling", "Data Analysis"],
-  },
-  {
-    title: "Web Development Intern",
-    company: "MSME & AICTE",
-    duration: "Nov 2023",
-    description: [
-      "Developed a full-stack E-commerce website using Django for back-end and React.js for front-end.",
-      "Built dynamic, user-friendly web pages with HTML, CSS, and JavaScript, focusing on responsive design.",
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "NLP",
+      "Model Evaluation"
     ],
-    technologies: ["Django", "React.js", "HTML", "CSS", "JavaScript"],
-  },
+  }
 ];
 
 const Experience = () => {
   return (
     <div className="bg-gray-1000 text-white py-12">
-      <h1 className="text-4xl font-extrabold text-center text-white mb-10">Internship Experience</h1>
+      <h1 className="text-4xl font-extrabold text-center text-white mb-10">Work Experience</h1>
       <div className="max-w-4xl mx-auto flex flex-col space-y-8 px-4">
         {experiences.map((exp, index) => (
           <div

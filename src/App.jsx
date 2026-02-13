@@ -41,18 +41,17 @@ const App = () => {
           <h1 className="text-4xl font-bold mb-10 ">My Skills</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full px-8">
             {[
-              "Python",
+              "Python (Pandas, NumPy)",
               "SQL",
-              "Pandas",
-              "Numpy",
+              "Excel",
               "Tableau",
               "Power BI",
-              "React.js",
-              "React Native",
-              "JavaScript",
-              "Node.js",
-              "Tailwind CSS",
-              "Microsoft Azure",
+              "Exploratory Data Analysis",
+              "KPI & Performance Analysis",
+              "ETL & Data Validation",
+              "Azure SQL",
+              "Business Requirements Gathering",
+              "Stakeholder Communication",
               
             ].map((skill, index) => (
               <div
@@ -80,7 +79,7 @@ const App = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/16kmIiLUIO0-gsisuP5zO9t4-CuMgmy1d/view?usp=sharing" // Replace YOUR_FILE_ID with the actual ID
+            href="https://drive.google.com/file/d/1G8n0NT5U6vzmZnRBkgZ6VNx39htPC8ZK/view?usp=sharing" // Replace YOUR_FILE_ID with the actual ID
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent text-white border-2 border-white py-3 px-8 rounded-full text-xl font-semibold uppercase tracking-wider transition-all duration-300 ease-in-out transform hover:bg-white hover:text-cyan-400 hover:scale-105 shadow-2xl hover:shadow-xl"

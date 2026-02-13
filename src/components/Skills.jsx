@@ -4,11 +4,11 @@ import { SiPython, SiJavascript, SiNodedotjs, SiSql, SiCplusplus } from "react-i
 const Skills = () => {
   const skills = [
     { name: "Python", icon: <SiPython className="text-4xl text-blue-500" /> },
-    { name: "JavaScript", icon: <SiJavascript className="text-4xl text-yellow-500" /> },
-    { name: "Node.js", icon: <SiNodedotjs className="text-4xl text-green-500" /> },
-    { name: "React.js", icon: <RiReactjsLine className="text-4xl text-cyan-500" /> },
-    { name: "SQL", icon: <SiSql className="text-4xl text-blue-700" /> },
-    { name: "C++", icon: <SiCplusplus className="text-4xl text-purple-500" /> },
+    { name: "SQL", icon: <SiJavascript className="text-4xl text-yellow-500" /> },
+    { name: "Tableau", icon: <SiNodedotjs className="text-4xl text-green-500" /> },
+    { name: "Power BI", icon: <RiReactjsLine className="text-4xl text-cyan-500" /> },
+    { name: "Excel", icon: <SiSql className="text-4xl text-blue-700" /> },
+    { name: "Statistics", icon: <SiCplusplus className="text-4xl text-purple-500" /> },
   ];
 
   return (
